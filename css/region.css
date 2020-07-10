@@ -1,0 +1,26 @@
+#sitios_turisticos {
+ background: #333;
+ color: #fff;
+}
+
+#sitios_turisticos h4{
+    text-align: center;
+}
+
+
+#sitios_turisticos .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#sitios_turisticos article {
+    margin: 15px;
+}
+
+#sitios_turisticos img {
+    width: 100%;
+    max-width: 400px;
+    -webkit-border-radius: 25px 25px;
+    border-radius: 25px 25px;
+}

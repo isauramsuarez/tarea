@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turísmo en Colombia</title>
+    <link rel="icon" type="imagen/png" href="imagen/ship_favicon.png"/>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/fontello.css"/>
+    <!-- load jQuery -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <!-- load Galleria -->
+    <script src="js/galleria.js"></script>
+    <script src="js/validar.js"></script>
+    <style>
+      /* Demo styles */
+      .galleria-info-description a { color: #bbb;}
+      .cred{margin-top:20px;font-size:11px;}
+
+      /* Gallery measures that will be applied */
+      .galleria {
+          height:420px;    /* defines a static gallery height */
+          max-width:820px; /* defines a responsive width */
+      }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="contenedor">
+      <h1 class="icon-camera">Nuestra Colombia</h1>
+      <input type="checkbox" id="menu-bar">
+      <label class="icon-menu-outline" for="menu-bar"></label>
+      <nav class="menu">
+          <a href="#home">Inicio</a>
+          <a href="#sitios_turisticos">Sitios Turisticos</a>
+          <a href="#informacion">Info</a>
+          <a href="#redesoc">Redes</a>
+      </nav>
+    </div>
+  </header> 
+  <main>
+      <section id="banner">
+        <img src="imagen/banner1.jpg">
+        <div class="contenedor">
+          <h2>EXPLOREMOS NUESTRO PAIS</h2>
+          <p>¿Te animas?</p>
+          <a href="#">Leer mas...</a>
+        </div>
+      </section>
+      <section id="home">
+          <h2>NUESTRA COLOMBIA</h2>
+          <p>Colombia es un pais con varios rincones sorprendentes. es un pais que  no tiene nada que
+              envidiar de otros; está dotada de unos paisajes naturales realmente hermosos y de una 
+              biodiversidad de flora y fauna. 
+          </p><br>
+          <p>Por que primero salir al extranjero, cuando no conoces el paraiso del país en el que naciste.</p><br>
+          <p>Así que te invito a que exploremos juntos nuestra tierra: COLOMBIA</p>
+      </section>
+      <section id="paisajes">
+          <center>
+        <div class="galleria">
+            <a href="imagen/santamarta.png">
+                <img src="imagen/santamarta1.png"
+                     data-big="https://picsum.photos/id/389/1440/1080.jpg"
+                     data-description="by &lt;a href=&quot;https://unsplash.com/photos/bt-Sc22W-BE&quot;&gt;Jake Hills&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;"
+                     data-title="SantaMarta">
+            </a>
+            <a href="imagen/cartagena.jpg">
+                <img src="imagen/cartagena1.jpg"
+                     data-big="https://picsum.photos/id/675/1440/1080.jpg"
+                     data-description="by &lt;a href=&quot;https://unsplash.com/photos/hBYzBU1xP6s&quot;&gt;Barn Images&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;"
+                     data-title="Cartagena">
+            </a>
+            <a href="imagen/barranquilla.jpeg">
+                <img src="imagen/barranquilla1.jpg"
+                     data-big="https://picsum.photos/id/525/1440/1080.jpg"
+                     data-description="by &lt;a href=&quot;https://unsplash.com/photos/aViOQZzikVs&quot;&gt;Luca Zanon&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;"
+                     data-title="Barranquilla">
+            </a>
+            <a href="imagen/san andres.jpg">
+                <img src="imagen/san andres1.jpg"
+                     data-big="https://picsum.photos/id/349/1440/1080.jpg"
+                     data-description="by &lt;a href=&quot;https://unsplash.com/photos/FmMivfgHCiM&quot;&gt;Caleb George&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;"
+                     data-title="San andres">
+            </a>
+            <a href="imagen/amazonas.jpg">
+                <img src="imagen/amazonas1.jpg"
+                     data-big="https://picsum.photos/id/120/1440/1080.jpg"
+                     data-description="by &lt;a href=&quot;https://unsplash.com/photos/_DA3D5P71qs&quot;&gt;Guillaume&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;"
+                     data-title="Amazonas">
+            </a>
+            <a href="imagen/caño cristal.jpg">
+                <img src="imagen/caño cristal1.jpg"
+                     data-big="https://picsum.photos/id/299/1440/1080.jpg"
+                     data-description="by &lt;a href=&quot;https://unsplash.com/photos/nOhUx3tiaQQ&quot;&gt;Matthew Wiebe&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;"
+                     data-title="caño cristal">
+            </a>
+            
+        </div>
+    </center>
+      </section>
+      <section id="sitios_turisticos">
+         <center><h2>SITIOS TURISTICOS</h2></center>
+          <div class="contenedor">
+             <article>
+               <img src="imagen/ciudad perdida.jpg">
+               <h4>Visita ciudad perdida en SantaMarta.</h4>
+               <a href="#">Leer más...</a>
+            </article>
+             <article>
+               <img src="imagen/malpelo.jpg">
+               <h4>Visita Isla Malpelo en la region pacifica.</h4>
+               <a href="#">Leer más...</a>
+            </article>
+             <article>
+               <img src="imagen/guacharos.jpg">
+               <h4>Visita el parque nacional cueva de los guacharos</h4>
+               <a href="#">Leer más...</a>
+            </article>
+          </div>
+      </section>
+      <section id="informacion">
+        <center>
+         <h2>INFORMACION</h2>
+        </center>
+         <div id="formulario" class="box">
+           <form
+            name="forma"
+            action="/recursoEnServidor"
+            method="POST"
+            onsubmit="return validarforma(this);"
+           >
+               <div class="etiquetas">
+                   <div class="etiqueta1">
+                      <h3>Nombre Completo</h3><br />
+                   </div>
+                 <div class="margin-text">
+                     <input type="text" name="usuario" size="48" onfocus="this.select();"/><br />
+                 </div>
+                </div>
+                <div class="etiquetas">
+                    <div class="etiqueta1">
+                      <h3>Direccion de Correo</h3><br />
+                    </div>
+                 <div class="margin-text">
+                    <input type="email" name="email" size="48" onfocus="this.select();"/><br />
+                 </div>
+                </div>
+                <div class="etiquetas">
+                    <div class="etiqueta1">
+                       <h3>Celular</h3><br />
+                    </div>
+                 <div class="margin-text">
+                    <input type="number" name="cellphone" placeholder="celular" onfocus="this.select();"/><br />
+                 </div>
+                </div>
+                <div class="etiquetas">
+                    <div class="etiqueta1">
+                      <h3>Mensaje</h3>
+                    </div>
+                 <div class="margin-text">
+                    <textarea name="msg" rows="10" cols="50" placeholder="Mensaje"></textarea>
+                 </div>
+                </div>
+                <div class="etiquetas">
+                   <div class="etiqueta1">
+                     <h3>Tecnología</h3>
+                   </div>
+                   <div class="margin-text" id="">
+                      java
+                      <input type="checkbox" name="tecnologia" value="java" />
+                      &nbsp;&nbsp;&nbsp; .Net
+                      <input type="checkbox" name="tecnologia" value="net" />
+                      &nbsp;&nbsp;&nbsp; Php
+                      <input type="checkbox" name="tecnologia" value="php" />
+                   </div>
+                </div>
+                <br />
+                <div class="etiquetas">
+                  <div class="etiqueta1">
+                    <input type="reset" value="Limpiar" class="default" />
+                  </div>
+                  <div class="margin-text">
+                    <input type="submit" value="Enviar" class="default" />
+                  </div>
+                </div>
+           </form>
+         </div>
+      </section>
+      <section id="redesoc">
+         <center><h2>NUESTRAS REDES SOCIALES</h2></center>
+         <div class="contenedor">
+           <div class="redes">
+            <a href="https://www.facebook.com" target="_blank"><img src="imagen/facebook.jpg" /></a>
+           </div>
+           <div class="redes">
+            <a href="https://www.twitter.com" target="_blank"><img src="imagen/twitter.jpg" /></a>
+           </div>
+           <div class="redes">
+            <a href="https://www.instagram.com" target="_blank"><img src="imagen/instagram.jpg" /></a>
+           </div>
+           <div class="redes">
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="imagen/whatapps.jpg" /></a>
+           </div>
+         </div>
+      </section>
+  </main>      
+  <!--script del slider en la pagina web principal-->
+  <script>
+    $(function() {
+        // Load the Azur theme
+        Galleria.loadTheme('galleria.azur.js');
+
+        // Initialize Galleria
+        Galleria.run('.galleria');
+    });
+    </script>
+  <!--hasta aqui el script del slider-->   
+</body>
+</html>
